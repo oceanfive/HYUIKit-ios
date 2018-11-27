@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B4790336005F6D3F98056850564DB3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		37830CC131590992ACC193EB3EEDFE2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		4537C9A678E733F1CF3B9145849657BD /* HYUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB7C31E8FFC6CF93A5ACA08B08DEDD2 /* HYUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55B6D9280A772BCE778E79A0ABED7695 /* HYUIKit-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9666E8E7A613E9CE1CC7BAEA4F03996D /* HYUIKit-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A8913B9274D68A73EF8CAE83D0768B /* HYUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E23D808BF5E5B45729613F0D52CB5A3 /* HYUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E9189C9EE02D885B7ECBEF89198651 /* HYUIKit-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B8E35A9C197E6B734BAAB9C26CD31 /* HYUIKit-ios-dummy.m */; };
+		3A3C11B5AFA06D3641D411C02F5BF697 /* HYUIKit-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD11224CA18E415D07664F5AFE5FFBE /* HYUIKit-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B42DD6C20F464AA6FB0214D7D2DB09 /* UIColor+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EB2A42C9F45F1FBA89FEAA1423E099 /* UIColor+HYCategory.m */; };
 		6B6EA94CFEF6DBE7D779958AC7AADF01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		8A994AE29CA0E3082E8084486DA243B5 /* UIColor+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D63734B5E0138A691D0233CA7B3ABC /* UIColor+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97ECCBB4C94BD465147B95331D47A98C /* UITabBar+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E183137E448EA9DBBC91346CBE3CF2 /* UITabBar+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98E7D0ED634BFE51593CE05FB28F5DC9 /* Pods-HYUIKit-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF887650E443348AD81AD9F864F672CE /* Pods-HYUIKit-ios_Example-dummy.m */; };
 		A60244D608DD25C79ACCA7FC84AA4A64 /* Pods-HYUIKit-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F5740BDB6DEF8B7C27E65A818C7F2E /* Pods-HYUIKit-ios_Tests-dummy.m */; };
+		AD18949810689F76E5E64AA290595F95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 		B0F766D990FC39C8A6DD4D2E5F40CE5C /* Pods-HYUIKit-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20600B0644DF593886A32F7B2C864400 /* Pods-HYUIKit-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B49338A91C9A303ED4583380D48B937B /* HYUIKit-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DFCCCCFFCE663D1998EA48A89E6CE /* HYUIKit-ios-dummy.m */; };
 		BA6600149E0480E5CA75E4B85C83061F /* Pods-HYUIKit-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34327CF2D76345BF98B7B77CBA607E18 /* Pods-HYUIKit-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D08563137D0C6F40E573CD3F2CC7DFAB /* UIColor+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FECBB1D875DC8085960B6F98DB0685 /* UIColor+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB93A99645C0ED9927C5B916F6A7B3E9 /* UIColor+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E909730163AAA3253686159001F0021E /* UIColor+HYCategory.m */; };
+		C04224A3786F9122A83184B078B142E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		DF02A496A11E9AFC2E11B08E7618BF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		E61A563C08DB7C35D34451B99BAE7FB2 /* UITabBar+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC962DB787FE1760DAC908A560E0EB /* UITabBar+HYCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,47 +36,49 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E3475FCD73EA3C1CE17F34901870202F;
+			remoteGlobalIDString = 7DD4333FC32188942C82734F5E8CC9D0;
 			remoteInfo = "HYUIKit-ios";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0330256A0055E6ED482F16F682625857 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0362E299842B4ECB88AB92E45FB760BE /* Pods-HYUIKit-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYUIKit-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B0A9ABD1DB9B00771CD7F919B27471B /* HYUIKit-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYUIKit-ios-prefix.pch"; sourceTree = "<group>"; };
 		0C807980C26F5CA8919E17AFE09ADEF2 /* Pods-HYUIKit-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYUIKit-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		185982BC9F3004EA8C3DB19DDEF86F26 /* HYUIKit-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "HYUIKit-ios.modulemap"; sourceTree = "<group>"; };
 		20600B0644DF593886A32F7B2C864400 /* Pods-HYUIKit-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYUIKit-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		2E23D808BF5E5B45729613F0D52CB5A3 /* HYUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYUIKit.h; path = "HYUIKit-ios/Classes/HYUIKit.h"; sourceTree = "<group>"; };
+		31101EF0E96306809ED212A79B3E93A3 /* HYUIKit-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "HYUIKit-ios.modulemap"; sourceTree = "<group>"; };
 		34327CF2D76345BF98B7B77CBA607E18 /* Pods-HYUIKit-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYUIKit-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3630C8B3C969E1D78ADEC2C1E214D11C /* Pods-HYUIKit-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYUIKit-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3675A6633C8C192C14E7330740795B12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		420F9C8EFEEBF39223BA474608600DEF /* Pods-HYUIKit-ios_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYUIKit-ios_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		44E183137E448EA9DBBC91346CBE3CF2 /* UITabBar+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+HYCategory.h"; path = "HYUIKit-ios/Classes/UITabBar+HYCategory.h"; sourceTree = "<group>"; };
 		462928201B0C7F2CBA62FEE333E8AA06 /* Pods-HYUIKit-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYUIKit-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4662D27567AD12AE020F7CB7C41C4519 /* Pods-HYUIKit-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYUIKit-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		496B1D2EAE38DE440FB08E89F812BF9E /* HYUIKit-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "HYUIKit-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5CDC962DB787FE1760DAC908A560E0EB /* UITabBar+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+HYCategory.m"; path = "HYUIKit-ios/Classes/UITabBar+HYCategory.m"; sourceTree = "<group>"; };
 		69F5740BDB6DEF8B7C27E65A818C7F2E /* Pods-HYUIKit-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYUIKit-ios_Tests-dummy.m"; sourceTree = "<group>"; };
-		6D3DFCCCCFFCE663D1998EA48A89E6CE /* HYUIKit-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYUIKit-ios-dummy.m"; sourceTree = "<group>"; };
 		6E4C4C7AB84A217794F622BB77847C1A /* Pods-HYUIKit-ios_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYUIKit-ios_Example-resources.sh"; sourceTree = "<group>"; };
 		729F8CAEFB4E015ABD9C4D7741296D12 /* Pods-HYUIKit-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYUIKit-ios_Tests.modulemap"; sourceTree = "<group>"; };
-		799A8503D88C976F97FED2FD31323773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D63734B5E0138A691D0233CA7B3ABC /* UIColor+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HYCategory.h"; path = "HYUIKit-ios/Classes/UIColor+HYCategory.h"; sourceTree = "<group>"; };
+		7BD11224CA18E415D07664F5AFE5FFBE /* HYUIKit-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYUIKit-ios-umbrella.h"; sourceTree = "<group>"; };
+		852B8E35A9C197E6B734BAAB9C26CD31 /* HYUIKit-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYUIKit-ios-dummy.m"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		921342E90CFE6B8441EB95E3A87245CA /* HYUIKit-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYUIKit-ios-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9666E8E7A613E9CE1CC7BAEA4F03996D /* HYUIKit-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYUIKit-ios-umbrella.h"; sourceTree = "<group>"; };
+		97B250487927D1280578CAB723C76F29 /* HYUIKit-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HYUIKit-ios.xcconfig"; sourceTree = "<group>"; };
 		A3979259D0F1CF1E5C810A22BC86631A /* Pods-HYUIKit-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYUIKit-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A587C74674F3F3A651E2F9AACB44564B /* Pods_HYUIKit_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYUIKit_ios_Tests.framework; path = "Pods-HYUIKit-ios_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF887650E443348AD81AD9F864F672CE /* Pods-HYUIKit-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYUIKit-ios_Example-dummy.m"; sourceTree = "<group>"; };
-		B03D452B996C5F46FE10B23A89CD2701 /* HYUIKit-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "HYUIKit-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B082043EF2994FEFFF9629E74864F663 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B1F1F69A3F51B74B79872A4E23D5421A /* Pods-HYUIKit-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYUIKit-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3D889252095C585150BF064DAF682CC /* Pods-HYUIKit-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYUIKit-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BF124C85584FCED8CE60D6F28BAC6746 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAB7C31E8FFC6CF93A5ACA08B08DEDD2 /* HYUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYUIKit.h; path = "HYUIKit-ios/Classes/HYUIKit.h"; sourceTree = "<group>"; };
-		CC74940072F1619E8AABA56938DFC91D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D6FECBB1D875DC8085960B6F98DB0685 /* UIColor+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HYCategory.h"; path = "HYUIKit-ios/Classes/UIColor+HYCategory.h"; sourceTree = "<group>"; };
+		D2EB2A42C9F45F1FBA89FEAA1423E099 /* UIColor+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HYCategory.m"; path = "HYUIKit-ios/Classes/UIColor+HYCategory.m"; sourceTree = "<group>"; };
 		DA90B62A2237F96B89E144A316C0D9FD /* HYUIKit_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYUIKit_ios.framework; path = "HYUIKit-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC06ED28A0D70C7C34D4280ABEB3457D /* Pods_HYUIKit_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYUIKit_ios_Example.framework; path = "Pods-HYUIKit-ios_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE28B271383003B254FCB3FEED64F9B6 /* HYUIKit-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HYUIKit-ios.xcconfig"; sourceTree = "<group>"; };
 		E5CDF5A07B4C4CD8181618860CA5AB92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5D36AA4F0FEBF88DA6659D0706D9CA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E909730163AAA3253686159001F0021E /* UIColor+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HYCategory.m"; path = "HYUIKit-ios/Classes/UIColor+HYCategory.m"; sourceTree = "<group>"; };
 		F6882C9FB3731DDB7BEB90A1E1549713 /* Pods-HYUIKit-ios_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYUIKit-ios_Tests-resources.sh"; sourceTree = "<group>"; };
 		F6F97A134E7651CDABF88D3669CDB1C7 /* Pods-HYUIKit-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYUIKit-ios_Example.modulemap"; sourceTree = "<group>"; };
 		FBD77309B227B34D670DA423226AB481 /* Pods-HYUIKit-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYUIKit-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -89,12 +93,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8969A424E039635FDB2C6E4A56CA3FF /* Frameworks */ = {
+		D13EADA2B320B147C633EC5C01D5E8AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4790336005F6D3F98056850564DB3E /* Foundation.framework in Frameworks */,
-				37830CC131590992ACC193EB3EEDFE2F /* UIKit.framework in Frameworks */,
+				C04224A3786F9122A83184B078B142E6 /* Foundation.framework in Frameworks */,
+				AD18949810689F76E5E64AA290595F95 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,29 +148,40 @@
 			path = "Target Support Files/Pods-HYUIKit-ios_Example";
 			sourceTree = "<group>";
 		};
+		657988F914CB5F1C82EDC5305B015472 /* HYUIKit-ios */ = {
+			isa = PBXGroup;
+			children = (
+				2E23D808BF5E5B45729613F0D52CB5A3 /* HYUIKit.h */,
+				76D63734B5E0138A691D0233CA7B3ABC /* UIColor+HYCategory.h */,
+				D2EB2A42C9F45F1FBA89FEAA1423E099 /* UIColor+HYCategory.m */,
+				44E183137E448EA9DBBC91346CBE3CF2 /* UITabBar+HYCategory.h */,
+				5CDC962DB787FE1760DAC908A560E0EB /* UITabBar+HYCategory.m */,
+				74E624CA45260322CF6B8AD0886A6DBE /* Pod */,
+				DA3ECE51A7A2B4F0EA907837A8B58255 /* Support Files */,
+			);
+			name = "HYUIKit-ios";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		74E624CA45260322CF6B8AD0886A6DBE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				496B1D2EAE38DE440FB08E89F812BF9E /* HYUIKit-ios.podspec */,
+				3675A6633C8C192C14E7330740795B12 /* LICENSE */,
+				B082043EF2994FEFFF9629E74864F663 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D253196E324E8C66CFCB63D427C58945 /* Development Pods */,
+				DFCEF5272DA65340D675B6A7968D28AA /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				A6D4F3F8D1A37BECF7861BB45D81887E /* Products */,
 				E3CE2165515963E5CACF701E34B8ADAF /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		890497063F2F21019CDC4D0F4AD7CA9E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				185982BC9F3004EA8C3DB19DDEF86F26 /* HYUIKit-ios.modulemap */,
-				DE28B271383003B254FCB3FEED64F9B6 /* HYUIKit-ios.xcconfig */,
-				6D3DFCCCCFFCE663D1998EA48A89E6CE /* HYUIKit-ios-dummy.m */,
-				0B0A9ABD1DB9B00771CD7F919B27471B /* HYUIKit-ios-prefix.pch */,
-				9666E8E7A613E9CE1CC7BAEA4F03996D /* HYUIKit-ios-umbrella.h */,
-				799A8503D88C976F97FED2FD31323773 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HYUIKit-ios";
 			sourceTree = "<group>";
 		};
 		9B9C272CBE018E2BACAA224C712FD3DB /* Pods-HYUIKit-ios_Tests */ = {
@@ -187,19 +202,6 @@
 			path = "Target Support Files/Pods-HYUIKit-ios_Tests";
 			sourceTree = "<group>";
 		};
-		A31F5928E23DD25E9D6C79CAE42B6E78 /* HYUIKit-ios */ = {
-			isa = PBXGroup;
-			children = (
-				CAB7C31E8FFC6CF93A5ACA08B08DEDD2 /* HYUIKit.h */,
-				D6FECBB1D875DC8085960B6F98DB0685 /* UIColor+HYCategory.h */,
-				E909730163AAA3253686159001F0021E /* UIColor+HYCategory.m */,
-				D322FCC6909BBD14155A309F9950B916 /* Pod */,
-				890497063F2F21019CDC4D0F4AD7CA9E /* Support Files */,
-			);
-			name = "HYUIKit-ios";
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		A6D4F3F8D1A37BECF7861BB45D81887E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,22 +212,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D253196E324E8C66CFCB63D427C58945 /* Development Pods */ = {
+		DA3ECE51A7A2B4F0EA907837A8B58255 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A31F5928E23DD25E9D6C79CAE42B6E78 /* HYUIKit-ios */,
+				31101EF0E96306809ED212A79B3E93A3 /* HYUIKit-ios.modulemap */,
+				97B250487927D1280578CAB723C76F29 /* HYUIKit-ios.xcconfig */,
+				852B8E35A9C197E6B734BAAB9C26CD31 /* HYUIKit-ios-dummy.m */,
+				921342E90CFE6B8441EB95E3A87245CA /* HYUIKit-ios-prefix.pch */,
+				7BD11224CA18E415D07664F5AFE5FFBE /* HYUIKit-ios-umbrella.h */,
+				0330256A0055E6ED482F16F682625857 /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYUIKit-ios";
 			sourceTree = "<group>";
 		};
-		D322FCC6909BBD14155A309F9950B916 /* Pod */ = {
+		DFCEF5272DA65340D675B6A7968D28AA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B03D452B996C5F46FE10B23A89CD2701 /* HYUIKit-ios.podspec */,
-				E5D36AA4F0FEBF88DA6659D0706D9CA0 /* LICENSE */,
-				CC74940072F1619E8AABA56938DFC91D /* README.md */,
+				657988F914CB5F1C82EDC5305B015472 /* HYUIKit-ios */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E3CE2165515963E5CACF701E34B8ADAF /* Targets Support Files */ = {
@@ -240,16 +246,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C4A6ECF4524AE7C3DDBD640D9D2A9AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55B6D9280A772BCE778E79A0ABED7695 /* HYUIKit-ios-umbrella.h in Headers */,
-				4537C9A678E733F1CF3B9145849657BD /* HYUIKit.h in Headers */,
-				D08563137D0C6F40E573CD3F2CC7DFAB /* UIColor+HYCategory.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5555B9B239E1ABB31596FA85C8674DFC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,16 +262,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1A06E66CEC7F5D1988EC9648C279465 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3C11B5AFA06D3641D411C02F5BF697 /* HYUIKit-ios-umbrella.h in Headers */,
+				04A8913B9274D68A73EF8CAE83D0768B /* HYUIKit.h in Headers */,
+				8A994AE29CA0E3082E8084486DA243B5 /* UIColor+HYCategory.h in Headers */,
+				97ECCBB4C94BD465147B95331D47A98C /* UITabBar+HYCategory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E3475FCD73EA3C1CE17F34901870202F /* HYUIKit-ios */ = {
+		7DD4333FC32188942C82734F5E8CC9D0 /* HYUIKit-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50F71CAC62DAE90F9DAAD0431AB2FBFB /* Build configuration list for PBXNativeTarget "HYUIKit-ios" */;
+			buildConfigurationList = 6F6FC204693F62A669C5DD33C7F98156 /* Build configuration list for PBXNativeTarget "HYUIKit-ios" */;
 			buildPhases = (
-				A5BE14559FFBE2842F0356622A8FE606 /* Sources */,
-				C8969A424E039635FDB2C6E4A56CA3FF /* Frameworks */,
-				4C4A6ECF4524AE7C3DDBD640D9D2A9AF /* Headers */,
+				9ECD573899EDEF527BBD0A0482D4F2A3 /* Sources */,
+				D13EADA2B320B147C633EC5C01D5E8AB /* Frameworks */,
+				B1A06E66CEC7F5D1988EC9648C279465 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,7 +350,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3475FCD73EA3C1CE17F34901870202F /* HYUIKit-ios */,
+				7DD4333FC32188942C82734F5E8CC9D0 /* HYUIKit-ios */,
 				E74683923E58F55C47B30F0B546F0247 /* Pods-HYUIKit-ios_Example */,
 				E788F70B294A513FE23EC07EDE29505F /* Pods-HYUIKit-ios_Tests */,
 			);
@@ -367,12 +374,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5BE14559FFBE2842F0356622A8FE606 /* Sources */ = {
+		9ECD573899EDEF527BBD0A0482D4F2A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49338A91C9A303ED4583380D48B937B /* HYUIKit-ios-dummy.m in Sources */,
-				DB93A99645C0ED9927C5B916F6A7B3E9 /* UIColor+HYCategory.m in Sources */,
+				21E9189C9EE02D885B7ECBEF89198651 /* HYUIKit-ios-dummy.m in Sources */,
+				63B42DD6C20F464AA6FB0214D7D2DB09 /* UIColor+HYCategory.m in Sources */,
+				E61A563C08DB7C35D34451B99BAE7FB2 /* UITabBar+HYCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +390,7 @@
 		2A49B3C39D3208600B24065B8FB68D8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HYUIKit-ios";
-			target = E3475FCD73EA3C1CE17F34901870202F /* HYUIKit-ios */;
+			target = 7DD4333FC32188942C82734F5E8CC9D0 /* HYUIKit-ios */;
 			targetProxy = 714039DC77B296A332AC0B3124AB4F95 /* PBXContainerItemProxy */;
 		};
 		9900001D43412FFC2FB11C8D294D91EE /* PBXTargetDependency */ = {
@@ -460,6 +468,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		63C6A0CF8630E2CC8DD02DB91BF5015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B250487927D1280578CAB723C76F29 /* HYUIKit-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYUIKit-ios/HYUIKit-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYUIKit-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYUIKit-ios/HYUIKit-ios.modulemap";
+				PRODUCT_MODULE_NAME = HYUIKit_ios;
+				PRODUCT_NAME = HYUIKit_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		71F356599D5DD44AC55A5999A91B980A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -591,36 +629,6 @@
 			};
 			name = Debug;
 		};
-		A3351D6EB6BD0C881F3B617EC53097CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE28B271383003B254FCB3FEED64F9B6 /* HYUIKit-ios.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HYUIKit-ios/HYUIKit-ios-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYUIKit-ios/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HYUIKit-ios/HYUIKit-ios.modulemap";
-				PRODUCT_MODULE_NAME = HYUIKit_ios;
-				PRODUCT_NAME = HYUIKit_ios;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -679,9 +687,9 @@
 			};
 			name = Release;
 		};
-		BACC2E7D505AD2E1772FB9FF1EA71412 /* Release */ = {
+		C67528C197E6F4ED183C8E4959F6AE04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE28B271383003B254FCB3FEED64F9B6 /* HYUIKit-ios.xcconfig */;
+			baseConfigurationReference = 97B250487927D1280578CAB723C76F29 /* HYUIKit-ios.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -722,11 +730,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50F71CAC62DAE90F9DAAD0431AB2FBFB /* Build configuration list for PBXNativeTarget "HYUIKit-ios" */ = {
+		6F6FC204693F62A669C5DD33C7F98156 /* Build configuration list for PBXNativeTarget "HYUIKit-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3351D6EB6BD0C881F3B617EC53097CA /* Debug */,
-				BACC2E7D505AD2E1772FB9FF1EA71412 /* Release */,
+				63C6A0CF8630E2CC8DD02DB91BF5015C /* Debug */,
+				C67528C197E6F4ED183C8E4959F6AE04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

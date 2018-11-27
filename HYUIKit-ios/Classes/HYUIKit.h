@@ -10,5 +10,6 @@
 #define HYUIKit_h
 
 #import "UIColor+HYCategory.h"
+#import "UITabBar+HYCategory.h"
 
 #endif /* HYUIKit_h */
