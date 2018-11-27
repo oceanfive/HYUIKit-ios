@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HYUIKit-ios_Example' do
+  pod 'HYUIKit-ios', :path => '../'
+
+  target 'HYUIKit-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
