@@ -1,0 +1,6 @@
+framework module HYUIKit_ios {
+  umbrella header "HYUIKit-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

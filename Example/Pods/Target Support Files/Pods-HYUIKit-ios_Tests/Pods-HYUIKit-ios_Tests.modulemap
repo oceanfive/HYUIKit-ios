@@ -1,0 +1,6 @@
+framework module Pods_HYUIKit_ios_Tests {
+  umbrella header "Pods-HYUIKit-ios_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
