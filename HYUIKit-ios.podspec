@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYUIKit-ios'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = 'HYUIKit-ios.'
   s.description      = <<-DESC
 iOS中UIKit的一些方法集合

@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param startPoint 开始的点
  @param endPoint 结束的点
  
- startPoint 和 endPoint，参考 UIColor+HYCategory.h 的描述
+ startPoint 和 endPoint，参考 UIColor+HYCategory.h 中的描述
  
  [0,0]------[1,0]
  |          |
