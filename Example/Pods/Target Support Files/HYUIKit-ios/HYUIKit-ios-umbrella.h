@@ -12,6 +12,7 @@
 
 #import "HYUIKit.h"
 #import "UIColor+HYCategory.h"
+#import "UILabel+HYCateogry.h"
 #import "UITabBar+HYCategory.h"
 
 FOUNDATION_EXPORT double HYUIKit_iosVersionNumber;
