@@ -1,9 +1,5 @@
 #! /bin/sh
 
-git_commit_des="自动发布pod测试"
-
-echo "****** begin ******"
-
 echo "\n ---- 获取podspec文件 begin ---- \n"
 
 # 获取到的文件路径
@@ -11,7 +7,7 @@ file_path=""
 file_name=""
 # 文件后缀名
 file_extension="podspec"
-# 文件夹路径，pwd表示当前文件夹
+# 文件夹路径
 directory="$(pwd)"
 
 # 参数1: 路径；参数2: 文件后缀名
@@ -36,7 +32,7 @@ function getFileAtDirectory(){
 getFileAtDirectory $directory $file_extension
 
 echo "\n -------------"
-echo "\n file_path: ${file_path}"
+echo "\n podspec_file_path: ${file_path}"
 echo "\n file_name: ${file_name}"
 
 echo "\n ---- 获取podspec文件 end ---- \n"
@@ -47,7 +43,6 @@ echo "\n ---- 读取podspec文件内容 begin ---- \n"
 
 # 定义pod文件名称
 pod_file_name=${file_name}
-# 查找 podspec 的版本
 search_str="s.version"
 
 # 读取podspec的版本
@@ -87,63 +82,3 @@ echo "\n -------------"
 echo "\n podspec_version: ${podspec_version}"
 
 echo "\n ---- 读取podspec文件内容 end ---- \n"
-
-
-
-pod_spec_name=${file_name}
-pod_spec_version=${podspec_version}
-
-echo "\n****** ${pod_spec_name} ${pod_spec_version} begin ****** \n"
-
-echo "\n 执行 pod install ------ \n"
-
-
-echo "cd Example"
-cd Example
-echo "pod install"
-pod install
-
-# 回到上级目录
-echo "cd .."
-cd ..
-
-
-echo "\n 执行 git 本地提交代码操作 ------ \n"
-# git 操作
-echo "git add ."
-git add .
-echo "git status"
-git status
-echo "git commit -m ${git_commit_des}"
-git commit -m ${git_commit_des}
-
-
-echo "\n 执行 pod 本地校验 ------ \n"
-# pod 本地校验
-echo "pod lib lint --allow-warnings --verbose"
-pod lib lint --allow-warnings --verbose
-
-
-echo "\n 执行 git 打标签tag，并推送到远端 ------ \n"
-# git推送到远端
-echo "git tag ${pod_spec_version}"
-git tag ${pod_spec_version}
-echo "git push origin master --tags"
-git push origin master --tags
-
-
-echo "\n 执行 pod 远端校验 ------ \n"
-# pod 远端校验
-echo "pod spec lint --allow-warnings --verbose"
-pod spec lint --allow-warnings --verbose
-
-echo "\n 执行 pod 发布 ------ \n"
-# 发布
-echo "pod trunk push --allow-warnings"
-pod trunk push --allow-warnings
-
-
-echo "\n****** ${pod_spec_name} ${pod_spec_version} end ******\n"
-
-
-echo "****** end ******"
