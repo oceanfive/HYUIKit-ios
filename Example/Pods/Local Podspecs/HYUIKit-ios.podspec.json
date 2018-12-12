@@ -1,6 +1,6 @@
 {
   "name": "HYUIKit-ios",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "HYUIKit-ios.",
   "description": "iOS中UIKit的一些方法集合",
   "homepage": "https://github.com/oceanfive/HYUIKit-ios",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/oceanfive/HYUIKit-ios.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "7.0"
