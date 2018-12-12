@@ -1,5 +1,6 @@
 #! /bin/sh
 
+# 只需要修改这个内容就行，其他的内容不需要改动
 git_commit_des="自动发布pod测试"
 
 echo "\n ****** begin ****** \n"
@@ -19,7 +20,7 @@ function getFileAtDirectory(){
     for element in `ls $1`
     do  
         dir_or_file=$1"/"$element
-        echo "$dir_or_file"
+        # echo "$dir_or_file"
         if [ -d $dir_or_file ]
         then 
             getFileAtDirectory $dir_or_file
@@ -58,7 +59,7 @@ my_file="${pod_file_name}"
 while read my_line
 do
 #输出读到的每一行的结果
-echo $my_line
+# echo $my_line
 
 	# 查找到包含的内容，正则表达式获取以 ${search_str} 开头的内容
 	result=$(echo ${my_line} | grep "^${search_str}")
