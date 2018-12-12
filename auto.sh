@@ -2,7 +2,7 @@
 
 git_commit_des="自动发布pod测试"
 
-echo "****** begin ******"
+echo "\n ****** begin ****** \n"
 
 echo "\n ---- 获取podspec文件 begin ---- \n"
 
@@ -60,9 +60,8 @@ do
 #输出读到的每一行的结果
 echo $my_line
 
-	# 查找到包含的内容
+	# 查找到包含的内容，正则表达式获取以 ${search_str} 开头的内容
 	result=$(echo ${my_line} | grep "^${search_str}")
-	echo "result: $result"
 	if [[ "$result" != "" ]]
 	then
    		echo "\n ${my_line} 包含 ${search_str}"
@@ -77,8 +76,8 @@ echo $my_line
 		version=${version//\'/}
 
 		podspec_version=$version
-	else
-   		echo "\n ${my_line} 不包含 ${search_str}"
+	#else
+   		# echo "\n ${my_line} 不包含 ${search_str}"
 	fi
 
 done < $my_file
@@ -142,8 +141,6 @@ echo "\n 执行 pod 发布 ------ \n"
 echo "pod trunk push --allow-warnings"
 pod trunk push --allow-warnings
 
-
 echo "\n****** ${pod_spec_name} ${pod_spec_version} end ******\n"
-
 
 echo "****** end ******"

@@ -28,7 +28,7 @@
     gradientLayer.mask = self.layer; // 设置遮罩mask，重叠部分，alpha>0 显示
     self.frame = gradientLayer.bounds; // 设置mask之后，frame会变化，需要重新设置
     /**
-     @discussion:3
+     @discussion:
      这样的设置是无效的 self.frame = gradientLayer.frame
      */
 }
