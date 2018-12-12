@@ -1,5 +1,5 @@
 PODS:
-  - HYUIKit-ios (0.0.15)
+  - HYUIKit-ios (0.0.17)
 
 DEPENDENCIES:
   - HYUIKit-ios (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYUIKit-ios: 2b511eb027b7ed77cfb9a35ab18bb02e02e802d0
+  HYUIKit-ios: 34eea9d3181cac291cc52849d59ada96093070e3
 
 PODFILE CHECKSUM: d972c87f87a1e9324e44507a845239ac23307f82
 
