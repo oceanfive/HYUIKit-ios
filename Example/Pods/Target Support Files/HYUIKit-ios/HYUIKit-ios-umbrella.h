@@ -10,10 +10,12 @@
 #endif
 #endif
 
+#import "HYGeometry.h"
 #import "HYUIKit.h"
 #import "UIColor+HYCategory.h"
 #import "UILabel+HYCateogry.h"
 #import "UITabBar+HYCategory.h"
+#import "UIView+HYCategory.h"
 
 FOUNDATION_EXPORT double HYUIKit_iosVersionNumber;
 FOUNDATION_EXPORT const unsigned char HYUIKit_iosVersionString[];

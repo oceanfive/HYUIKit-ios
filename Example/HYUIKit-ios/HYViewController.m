@@ -7,6 +7,9 @@
 //
 
 #import "HYViewController.h"
+#import <CoreGraphics/CoreGraphics.h>
+#import "HYGeometry.h"
+#import "UIView+HYCategory.h"
 
 @interface HYViewController ()
 
@@ -18,6 +21,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIImageView *myImageView = [[UIImageView alloc] init];
+    myImageView.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:myImageView];
+    myImageView.frame = CGRectMake(0.5, 0.1, 100.15, 100.95);
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [myImageView hy_alignRect];
+    });
+    
 }
 
 - (void)didReceiveMemoryWarning
