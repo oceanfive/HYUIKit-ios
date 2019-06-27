@@ -13,6 +13,8 @@
 #import "HYGeometry.h"
 #import "HYUIKit.h"
 #import "UIColor+HYCategory.h"
+#import "UIDevice+HYCategory.h"
+#import "UIImage+HYCategory.h"
 #import "UILabel+HYCateogry.h"
 #import "UITabBar+HYCategory.h"
 #import "UIView+HYCategory.h"

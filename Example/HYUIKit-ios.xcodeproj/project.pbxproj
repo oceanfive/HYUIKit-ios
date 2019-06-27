@@ -23,6 +23,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8E45D05722B1030300298895 /* HYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E45D05622B1030300298895 /* HYNavigationController.m */; };
+		8EC4212722BB39D900D53F37 /* MYLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4212622BB39D900D53F37 /* MYLayer.m */; };
+		8EC4212A22BB39EF00D53F37 /* MYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4212922BB39EF00D53F37 /* MYView.m */; };
 		90386901D65AFBFA3A2318F4 /* Pods_HYUIKit_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C58AB79E4389B0788C37DEB /* Pods_HYUIKit_ios_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AEA0453CB124C32FDC4D548 /* Pods-HYUIKit-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYUIKit-ios_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYUIKit-ios_Example/Pods-HYUIKit-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E45D05522B1030300298895 /* HYNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNavigationController.h; sourceTree = "<group>"; };
+		8E45D05622B1030300298895 /* HYNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNavigationController.m; sourceTree = "<group>"; };
+		8EC4212522BB39D900D53F37 /* MYLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYLayer.h; sourceTree = "<group>"; };
+		8EC4212622BB39D900D53F37 /* MYLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYLayer.m; sourceTree = "<group>"; };
+		8EC4212822BB39EF00D53F37 /* MYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYView.h; sourceTree = "<group>"; };
+		8EC4212922BB39EF00D53F37 /* MYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYView.m; sourceTree = "<group>"; };
 		9C58AB79E4389B0788C37DEB /* Pods_HYUIKit_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYUIKit_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC923DD9F033FFA810CB7C5 /* Pods-HYUIKit-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYUIKit-ios_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYUIKit-ios_Example/Pods-HYUIKit-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C118080962CEE343A544446E /* Pods-HYUIKit-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYUIKit-ios_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYUIKit-ios_Tests/Pods-HYUIKit-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +146,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HYViewController.h */,
 				6003F5A6195388D20070C39A /* HYViewController.m */,
+				8E45D05522B1030300298895 /* HYNavigationController.h */,
+				8E45D05622B1030300298895 /* HYNavigationController.m */,
+				8EC4212522BB39D900D53F37 /* MYLayer.h */,
+				8EC4212622BB39D900D53F37 /* MYLayer.m */,
+				8EC4212822BB39EF00D53F37 /* MYView.h */,
+				8EC4212922BB39EF00D53F37 /* MYView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,6 +262,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = oceanfive;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = D94N38GZR8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -336,7 +354,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HYUIKit-ios_Example/Pods-HYUIKit-ios_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HYUIKit-ios_Example/Pods-HYUIKit-ios_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HYUIKit-ios/HYUIKit_ios.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -345,7 +363,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYUIKit-ios_Example/Pods-HYUIKit-ios_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYUIKit-ios_Example/Pods-HYUIKit-ios_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -355,7 +373,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E45D05722B1030300298895 /* HYNavigationController.m in Sources */,
 				6003F59E195388D20070C39A /* HYAppDelegate.m in Sources */,
+				8EC4212A22BB39EF00D53F37 /* MYView.m in Sources */,
+				8EC4212722BB39D900D53F37 /* MYLayer.m in Sources */,
 				6003F5A7195388D20070C39A /* HYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -485,6 +506,7 @@
 			baseConfigurationReference = 8AEA0453CB124C32FDC4D548 /* Pods-HYUIKit-ios_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D94N38GZR8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYUIKit-ios/HYUIKit-ios-Prefix.pch";
 				INFOPLIST_FILE = "HYUIKit-ios/HYUIKit-ios-Info.plist";
@@ -500,6 +522,7 @@
 			baseConfigurationReference = AEC923DD9F033FFA810CB7C5 /* Pods-HYUIKit-ios_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D94N38GZR8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYUIKit-ios/HYUIKit-ios-Prefix.pch";
 				INFOPLIST_FILE = "HYUIKit-ios/HYUIKit-ios-Info.plist";

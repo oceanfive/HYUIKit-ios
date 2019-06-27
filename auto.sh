@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # 只需要修改这个内容就行，其他的内容不需要改动
-git_commit_des="添加UIView的分类方法"
+git_commit_des="添加UIImage的分类方法"
 
 echo "\n ****** begin ****** \n"
 
